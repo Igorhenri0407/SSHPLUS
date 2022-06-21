@@ -2,8 +2,7 @@
 #====================================================
 #	SCRIPT: BOTSSH SSHPLUS MANAGER
 #	DESENVOLVIDO POR:	CRAZY_VPN
-#	CONTATO TELEGRAM:	http://t.me/crazy_vpn
-#	CANAL TELEGRAM:	http://t.me/sshplus
+#	CONTATO TELEGRAM:	http://t.me/Igorhenri0407
 #====================================================
 clear
 [[ $(awk -F" " '{print $2}' /usr/lib/licence) != "@KIRITO_SSH" ]] && exit 0
@@ -50,7 +49,7 @@ fun_botOnOff() {
         		wget -qO- sshplus.xyz/script/ShellBot.sh > /etc/SSHPlus/ShellBot.sh
         	}
             [[ ! -e "/etc/SSHPlus/ShellBot.sh" ]] && {
-				wget -qO- https://raw.githubusercontent.com/kiritosshxd/SSHPLUS/master/Install/ShellBot.sh >/etc/SSHPlus/ShellBot.sh
+				wget -qO- https://raw.githubusercontent.com/Igorhenri0407/SSHPLUS/main/Install/ShellBot.sh >/etc/SSHPlus/ShellBot.sh
 			}
             cd /etc/SSHPlus
             screen -dmS bot_plus ./bot $tokenbot $iduser >/dev/null 2>&1
