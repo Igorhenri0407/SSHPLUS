@@ -15,7 +15,7 @@ banner='
 |_|      \___/ |___/|___/ \___||_| \__,_| \___/ |_| |_||____| \___/ |____||____|   
 
 echo -e "${CORTITLE}=====================================${SCOLOR}" 
-echo -e "${CORTITLE}       SSHPLUS CLIENTE AGOSTINHO C.       ${SCOLOR}"
+echo -e "${CORTITLE}       SSHPLUS CLIENTE Posseidon2022       ${SCOLOR}"
 echo -e "${CORTITLE}=====================================${SCOLOR}" 
 echo -e "${RED}$banner${SCOLOR}"
 [[ ! -e dns ]] && {
