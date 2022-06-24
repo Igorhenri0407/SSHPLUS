@@ -1,6 +1,6 @@
 #!/bin/bash
 #====================================================
-#	@Posseidon2022
+#	@Igorhenri0407
 #====================================================
 _lvk=$(wget -qO- https://raw.githubusercontent.com/Igorhenri0407/SSHPLUS/main/Sistema/versao)
 IP=$(wget -qO- ipv4.icanhazip.com)

@@ -1,8 +1,8 @@
 #!/bin/bash
 #===================================================
-#	SCRIPT: OTIMIZAR	SSH Posseidon
+#	SCRIPT: OTIMIZAR	SSH AGOSTINHO
 #	DESENVOLVIDO POR:	CRAZY_VPN
-#	CONTATO TELEGRAM:	http://t.me/Posseidon2022
+#	CONTATO TELEGRAM:	http://t.me/Igorhenri0407
 #===================================================
 fun_bar() {
 	comando[0]="$1"
